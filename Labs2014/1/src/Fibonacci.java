@@ -2,8 +2,7 @@ import java.util.Scanner;
 public class Fibonacci {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		long a = 0, b = 1, f = 0;
-		int n;		
+		long a = 0, b = 1, f = 0, n;		
 		System.out.print("Enter integer [0;30]: ");
 		if(sc.hasNextInt()) {
 			n = sc.nextInt();
